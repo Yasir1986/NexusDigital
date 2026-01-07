@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { PORTFOLIO } from '../constants';
+import { PORTFOLIO } from '../../constants';
 
 const PortfolioItem: React.FC<{ item: typeof PORTFOLIO[0], index: number }> = ({ item, index }) => {
   const [isLoaded, setIsLoaded] = useState(false);

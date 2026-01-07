@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { generateProjectImage } from '../services/geminiService';
+import { generateProjectImage } from '../../services/geminiService';
 
 type AspectRatio = '1:1' | '16:9' | '4:3' | '3:4';
 

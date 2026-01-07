@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { SERVICES } from '../constants';
-import { Service } from '../types';
+import { SERVICES } from '../../constants';
+import { Service } from '../../types';
 
 const Services: React.FC = () => {
   const [selectedService, setSelectedService] = useState<Service | null>(null);

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { View } from '../types';
+import { View } from '../../types';
 
 interface NavbarProps {
   onHome: () => void;

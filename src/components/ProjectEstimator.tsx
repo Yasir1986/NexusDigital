@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { getProjectEstimate } from '../services/geminiService';
-import { EstimateResult } from '../types';
+import { getProjectEstimate } from '../../services/geminiService';
+import { EstimateResult } from '../../types';
 
 const ProjectEstimator: React.FC = () => {
   const [prompt, setPrompt] = useState('');

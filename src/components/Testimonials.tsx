@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { TESTIMONIALS } from '../constants';
+import { TESTIMONIALS } from '../../constants';
 
 const Testimonials: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);

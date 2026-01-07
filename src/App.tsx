@@ -12,12 +12,11 @@ import Footer from './components/Footer';
 import LegalPage from './components/LegalPage';
 import AboutPage from './components/AboutPage';
 import ScrollToTop from './components/ScrollToTop';
-import { View } from './types';
 
-const App: React.FC = () => {
-  const [currentView, setCurrentView] = useState<View>('home');
+const App = () => {
+  const [currentView, setCurrentView] = useState('home');
 
-  const handleNavigate = (view: View) => {
+  const handleNavigate = (view) => {
     setCurrentView(view);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };

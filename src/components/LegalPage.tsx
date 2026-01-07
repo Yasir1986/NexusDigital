@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { View } from '../types';
+import { View } from '../../types';
 
 interface LegalPageProps {
   type: View;
