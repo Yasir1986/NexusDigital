@@ -10,6 +10,6 @@ Enjoy :)
 
 Or
 
-For live deploy:
+For live deploy:-
 
 https://unrivaled-baklava-95e1be.netlify.app/
