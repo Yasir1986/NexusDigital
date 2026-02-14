@@ -10,6 +10,6 @@ Enjoy
 
 Or
 
-For live deploy:
+For live deploy:-
 
 https://dapper-alfajores-a3a8ac.netlify.app/
